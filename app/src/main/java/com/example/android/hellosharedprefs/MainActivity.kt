@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     private var mColor = 0
 
     // Text view to display both count and color
-    private var mShowCountTextView: TextView? = null
+    lateinit var mShowCountTextView: TextView
 
     // Key for current count
     private val COUNT_KEY = "count"
